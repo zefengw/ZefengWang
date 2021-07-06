@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* background-color: green; */
+}
+
+
+.parallax-inner{
+    background: url("") repeat fixed 100%;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+
+section {
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+.box {
+    text-align: center;
+    padding: 50px;
+    color: black;
+
+    margin-top: 20px;
+}
+
+
+div h2 {
+    color: gray;
+}
+div h1{
+    text-align: center;
+    font-size: 500%;
+    color: #fff;
+    letter-spacing: 3;
+}
+
