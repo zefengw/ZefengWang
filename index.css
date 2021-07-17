@@ -1,0 +1,70 @@
+body{
+    background-color: lightgray;
+}
+#parallax-inner{
+    background: url("images/thumbsUp.jpg") repeat fixed 100%;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin: 0;
+}
+
+.image-container{text-align:center}
+
+.fade {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: lightblue;
+    opacity: 1;
+}
+
+
+
+#heading {
+    color: gray;
+}
+
+#title {
+    text-align: center;
+    font-size: 500%;
+    color: #fff;
+    letter-spacing: 3;
+}
+
+.jContainer{
+    background-color: white;
+    color: white;
+}
+
+.jImg{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-left: 100px;
+}
+
+.jTxt{
+    float: right;
+    padding-right: 50px;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+  }
+
+  .fa:hover {
+      opacity: 0.8;
+      color: black;
+  }
+
+.contactli{
+    color: gray;
+    font-size: 10px;
+}
